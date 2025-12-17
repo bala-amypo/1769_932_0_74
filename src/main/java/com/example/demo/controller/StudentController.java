@@ -24,6 +24,8 @@ public class StudentController {
         return ser.getStudents();
     }
     @GetMapping("getStudent/{id}")
-    public 
+    public StudentEntity getStudent(StudentEntity student){
+        return ser.getStudent();
+    }
     
 }
