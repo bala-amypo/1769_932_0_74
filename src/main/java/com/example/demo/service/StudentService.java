@@ -1,5 +1,9 @@
-package com.example.demo.service; 
+package com.example.demo.service;
 
-public interface StudentService {  
-   
+import com.example.demo.entity.StudentEntity;
+
+public interface StudentService {
+
+    public StudentEntity addStudents(StudentEntity student);
+
 }
