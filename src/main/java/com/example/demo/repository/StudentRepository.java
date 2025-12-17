@@ -1,5 +1,6 @@
 package com.exmaple.demo.repository;
 
-public class StudentRepository{
+public class StudentRepository extends JpaRepository{
+    
 
 }
