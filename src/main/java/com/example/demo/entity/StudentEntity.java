@@ -19,6 +19,7 @@ public class StudentEntity{
         this.name = name ;
         this.email = email;
         this.cgpa = cgpa;
+code-server --install-extension <path-to-extension.vsix>
 
     }
     public StudentEntity(){}
