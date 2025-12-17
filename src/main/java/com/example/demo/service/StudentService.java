@@ -1,1 +1,5 @@
-package com.exmaple.demo.service.
+package com.exmaple.demo.service.impl;
+
+public Interface StudentService{
+    
+}
