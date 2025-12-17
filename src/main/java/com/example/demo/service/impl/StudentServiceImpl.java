@@ -1,3 +1,7 @@
-package.com.example.service.Impl;
+package com.example.demo.service.impl;
 
-public Interface
+import com.example.demo.service.StudentService; 
+
+public class StudentServiceImpl implements StudentService {
+   
+}
