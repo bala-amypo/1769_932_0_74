@@ -1,3 +1,7 @@
 package com.exmaple.demo.entity;
+import jakarta.persistence.Entity;
 
-public class Student
+@Entity
+public class StudentEntity{
+
+}
