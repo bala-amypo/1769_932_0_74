@@ -1,15 +1,15 @@
-package com.exmaple.demo.entity;
 import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.GenerationType;
 import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
-public class StudentEntity{
+public class StudentEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.Identity)
-     private long id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+     private Long id;
+     
      private String name;
      private String email;
      private float cgpa;
@@ -27,13 +27,13 @@ public class StudentEntity{
         this.name = name;
      }
      public void getName(){
-        return this.name;
+        return name;
      }
      public void setEmail(String email){
         this.email = email;
      }
      public void getEmail(){
-        return this.email;
+        return email;
      }
      public void setCgpa(float cgpa){
         this.cgpa = cgpa;
@@ -41,4 +41,7 @@ public class StudentEntity{
      public void getCgpa(){
         return this.cgpa;
      }
+
+   
 }
+
