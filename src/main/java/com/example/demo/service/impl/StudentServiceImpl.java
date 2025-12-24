@@ -26,7 +26,7 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    @Transactional
+
     public StudentEntity getStudentById(Long id) {
         return repo.findById(id).orElse(null);
     }
